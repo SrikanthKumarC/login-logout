@@ -1,5 +1,5 @@
 export function checkValidEmail (email) {
-    return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,6})+$/.test(email)
+    return /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,6})+$/.test(email)
 }
 
 export const checkDisability = (email, password, confirmPassword=password) => {
